@@ -1,0 +1,203 @@
+
+body {
+   font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;   
+    margin-top: 40px;
+    line-height:16px;
+     background-color: #EBEBEB;
+}
+
+h1, h2, h3, h4, h5, h6 {
+      font-family:'Open Sans', sans-serif;
+    font-weight: 500;
+   line-height:40px;
+   
+}
+
+
+
+h1 {
+    color:#11B674;
+    font-weight: 900;
+    
+}
+.text-center {
+    text-align: center; 
+}
+
+.main-top-margin {
+     margin-top: 75px;
+     background-color: rgba(73, 151, 250, 0.11);
+}
+.main-low-margin {
+     margin-top: 65px;
+}
+
+a,a:hover {
+    text-decoration:none;
+}
+
+p {
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+
+.img-margin-product {
+    margin-top:30px;
+}
+.bottam-pad {
+     padding-bottom:40px;
+}
+.text-justify {
+    text-align:justify;
+}
+.smallHead {
+    font-size: 28px;
+}
+.txt {
+    font-size: 22px;
+}
+
+.img-circle {
+    width: 280px;
+    height:160px;
+}
+
+.color-red {
+    color:#ff0000;
+}
+
+.color-green {
+    color:#07BB00;
+}
+
+.color-light-blue {
+    color:#BB00BB;
+}
+
+.color-blue {
+    color:#0052FF;
+}
+.color-brown {
+    color:#EB8F2D;
+}
+.color-black {
+    color:#000000;
+}
+
+button {
+    background-color: #4CAF50;;
+    color: white;
+    border-radius: 10px;
+}
+
+
+#header-section {
+	background: url(../img/1.jpg) no-repeat center top;
+	margin-top: -20px;
+	padding-top:20px;
+	text-align:center;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header-section h1 {
+	margin-top: 90px;
+	color: white;
+	font-size: 75px;
+	font-weight: 900;
+	letter-spacing: 4px;
+    line-height:70px;
+}
+
+#header-section h2 {
+	color: white;
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 4px;
+}
+#header-section h3 {
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 4px;
+    padding-bottom:80px;
+}
+.down-icon {
+     color:white;
+    font-weight:900;
+}
+.headx {
+    font-size: 42px;
+    font-family: Arial sans-serif;
+}
+
+
+/*    BOOTSTRAP ELEMENTS CHANGES   */
+.navbar {
+	font-size: 14px;
+}
+
+.navbar-inverse {
+	background: #000000;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: 25px;
+    font-weight:900;
+	letter-spacing: 2px;
+}
+.navbar-inverse :hover .navbar-brand:hover {
+	color: #ffffff;	
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #FFFFFF;
+}
+.current {
+    background-color: #4CAF50;
+}
+
+
+ 
+
+#footer {
+    margin-top:100px;
+    background-color: #000; 
+    color: #fff; 
+    text-align: right; 
+    padding: 10px 30px 10px 30px;
+}
+.row {
+    font-size: 18px;
+}
+/*Responsive*/
+@media (max-width: 847px) {
+    .flot-nav {
+    float:left;
+}
+     
+}
+
+@media (max-width: 1090px) {
+    .img-thumbnail {
+max-width: 50%;
+}
+}
